@@ -9548,15 +9548,18 @@ strong,
 
 .content-inner-1 {
   padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-bottom: 10px; 
+  height: 700px;}
   @media only screen and (max-width: 991px) {
     .content-inner-1 {
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+      height: 700px;
+      padding-top: 40px;
+      padding-bottom: 20px; } }
   @media only screen and (max-width: 575px) {
     .content-inner-1 {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
+      height: 2000px;
+      padding-top: 30px;
+      padding-bottom: 10px; } }
 
 .content-inner-2 {
   padding-top: 100px;
@@ -11786,6 +11789,56 @@ section {
     max-width: 100%; } }
 
 /*=== Layout ===*/
+/*=== TuanLinh ===*/
+@media only screen and (max-width: 1540px) {
+  .swiper-wrapper {
+    margin-top: 100px;
+    height: 600px; } 
+  .banner-inner {
+    height: 600px; } 
+  .new-food{
+    height: 700px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  .popular-food{
+    height: 600px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+  } }
+@media only screen and (max-width: 991px) {
+  .swiper-wrapper {
+    margin-top: 100px;
+    height: 200px; } 
+  .banner-inner {
+    height: 200px; } 
+  .new-food{
+    height: 1500px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    }
+  .popular-food{
+    height: 700px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }}
+@media only screen and (max-width: 575px) {
+  .swiper-wrapper {
+    margin-top: 100px;
+    height: 200px; }
+  .banner-inner {
+    height: 200px; } 
+  .new-food{
+    height: 2300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }
+  .popular-food{
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  }
 .logo-header {
   display: table;
   float: left;
@@ -11819,10 +11872,10 @@ section {
     transition: all 0.5s; }
     @media only screen and (max-width: 991px) {
       .logo-header img {
-        width: 165px; } }
+        width: 100px; } }
     @media only screen and (max-width: 575px) {
       .logo-header img {
-        max-width: 150px; } }
+        max-width: 80px; } }
   .logo-header span {
     font-size: 20px;
     letter-spacing: 20px; }
@@ -12753,7 +12806,7 @@ section {
   --headerheight: 64px; }
   .site-header.style-1 .main-bar {
     box-shadow: none;
-    padding: 10px 0; }
+     }
   .site-header.style-1 .extra-nav {
     height: var(--headerheight);
     padding-left: 60px; }
@@ -19133,7 +19186,7 @@ ul a.rsswidget {
           bottom: 95px; } }
     @media only screen and (max-width: 991px) {
       .main-bnr-one .banner-inner {
-        padding-top: 50px;
+        
         height: 650px; }
         .main-bnr-one .banner-inner .banner-content {
           margin-bottom: 0; }
@@ -19149,7 +19202,7 @@ ul a.rsswidget {
           object-fit: cover; } }
     @media only screen and (max-width: 767px) {
       .main-bnr-one .banner-inner {
-        padding-top: 110px;
+        
         height: 800px; }
         .main-bnr-one .banner-inner .banner-content {
           margin-bottom: 30px; }
@@ -24761,7 +24814,7 @@ pre {
     z-index: -1; }
   .section-wrapper-3::after {
     content: "";
-    height: 200px;
+    
     width: 100%;
     background-color: #fff;
     position: absolute;
